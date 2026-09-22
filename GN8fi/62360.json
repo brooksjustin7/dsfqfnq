@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：Practice：实现数据库连接池简易模拟实现
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/63601926.html
+
+原标题：前端工程化 webpack 打包优化
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/59279495.html
+
+原标题：部署实践：数据库迁移脚本版本管理实践
+简介：golang 优雅处理 http 超时设置，Go HTTP 请求设置各类超时，防止请求无限阻塞，保护协程与连接。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/21573681.html
+
+原标题：实战：Nginx配置静态站点、反向代理、负载均衡
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/37579584.html
+
+原标题：Issue：文件句柄耗尽，服务缓慢卡死复盘
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/63736917.html
+
+原标题：Security：接口鉴权越权漏洞检测与修复
+简介：数据库分表路由写入分片修正，修复分表路由逻辑，保证数据写入正确分片，不会出现数据丢失错乱。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/75906827.html
+
+原标题：从零搭建简单定时任务demo
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/62835846.html
+
+原标题：golang validator 自定义校验规则
+简介：golang GC 频繁 STW 停顿优化，减少小对象分配，调整 GOGC，降低 GC 停顿对接口延迟影响。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/30450384.html
+
+原标题：golang 系统设计 git 钩子自动化校验实现
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/63945814.html
+
+原标题：golang k8s 节点污点容忍度配置
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/04738125.html
+
+原标题：Security：文件上传漏洞攻击面完整防护方案
+简介：golang tcp 连接泄露排查定位，netstat 查看连接状态，找出未正常关闭连接，定位连接泄漏代码。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/63824146.html
+
+原标题：安全实践：SQL注入产生场景与完整防御手段
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/18249170.html
+
+原标题：Hands‑on：简易连接池原型实现理解原理
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/63680781.html
+
+原标题：内网测试服务搭建团队调试
+简介：golang embed 目录读取文件列表，embed 嵌入整个目录，读取目录下全部文件，做静态资源服务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/91503924.html
+
+原标题：git stash 代码暂存切换分支
+简介：业务幂等键设计防重复逻辑，讲解幂等键设计思路，选择合适业务字段作为幂等标识，实现可靠防重复。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/63835025.html
+
+原标题：Issue：浏览器缓存ServiceWorker导致旧页面常驻
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/29350513.html
+
+原标题：零基础理解JSON、XML数据格式处理
+简介：缓存过期策略优化防业务故障，合理设置缓存过期策略，规避集中过期，减少缓存失效带来业务抖动。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/71683036.html
+
+原标题：golang k8s 本地 minikube 调试应用
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/35979236.html
+
+原标题：golang 雪花 id 重复问题排查
+简介：golang goroutine 泄露检测告警实现，监控 goroutine 数量，突增触发告警，提早发现协程泄露。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/15923257.html
+
+原标题：Git 混乱提交历史清理方法
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/74834139.html
+
+原标题：golang 系统设计缓存优化落地实操指南
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/29358139.html
+
+原标题：Architecture：事件溯源架构模式适用业务场景
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/19382478.html
+
+原标题：golang jaeger 链路追踪 go 接入
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/58170602.html
+
+原标题：nestjs 全局返回格式统一处理
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/74935817.html
+
+原标题：踩坑记录：端口被占用导致服务启动失败
+简介：golang errgroup 协程组错误处理，errgroup 捕获协程错误，context 取消剩余协程，简化并发任务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/26957450.html
+
+原标题：后端分页查询逻辑代码实现
+简介：golang redis 锁超时业务处理，Redis 分布式锁超时问题处理，锁续期逻辑，防止业务未完成锁提前释放。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/41584817.html
+
+原标题：部署复盘：配置不要硬编码进镜像最佳实践
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/14825846.html
+
+原标题：特殊输入字符过滤解析防护
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/48381368.html
+
+原标题：golang 系统设计架构图绘图工具选型对比
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/07136157.html
+
+原标题：golang mongodb 分页性能优化技巧
+简介：golang ip2regionIP 地址解析实战，集成 ip2region 库，根据 IP 解析归属地城市，实现 IP 地域解析。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/39919147.html
+
+原标题：实战项目：WebSocket消息广播房间分组实践
+简介：GitHub 项目提交推送完整流程讲解，从仓库初始化到提交推送远程仓库，梳理全流程细节，避开新手高频错误。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/95249290.html
+
+原标题：golang csv 读写批量数据处理
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/18450358.html
+
+原标题：快速上手简单信号处理脚本编写
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/52672580.html
+
+原标题：缓存基础原理与简单代码实现
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/96138130.html
+
+原标题：Nginx 丢失请求头配置修正
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/74947079.html
+
+原标题：golang 系统设计开源 issue 处理回复沟通技巧
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/96149248.html
+
+原标题：Hands‑on：简易消息推送服务开发实践
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/19947058.html
+
+原标题：记一次第三方回调IP变动未更新防火墙拦截
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/09220423.html
+
+原标题：设计思考：防雪崩，系统过载保护架构设计
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/59024142.html
+
+原标题：golang redis 计数器防超卖示例
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/82980213.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计监控缺失指标补全完整流程
+简介：golang time 时间比较 Before After Equal，时间比较不要直接减，使用内置方法判断时间先后。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/29246808.html
+
+原标题：golang docker compose 依赖启动顺序
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/37069130.html
+
+原标题：Git 混乱提交历史清理方法
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/86047956.html
+
+原标题：用户敏感数据脱敏代码实现
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/52573706.html
+
+原标题：golang 多协程任务池并发控制
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/08347457.html
+
+原标题：Troubleshoot：RPC序列化对象字段增减兼容踩坑
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/30451402.html
+
+原标题：golang 系统设计 pre‑commit 钩子本地代码校验
+简介：golang 接口限流中间件开发，Gin 开发限流中间件，接口层实现访问频率限制，防护接口流量。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/52725847.html
+
+原标题：echarts 大数据渲染性能调优
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/20580363.html
+
+原标题：架构复盘：分表扩容架构平滑迁移思路
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/29895896.html
+
+原标题：golang 系统设计排行榜几种实现
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/39481585.html
+
+原标题：golang minio 存储桶权限管控配置
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/36452515.html
+
+原标题：Git 误提交撤销回退实操教程
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/41491462.html
+
+原标题：时间同步修复令牌提前过期
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/70706814.html
+
+原标题：快速入门ORM，实现简单数据库增删改查
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/48680692.html
+
+原标题：复盘总结：分布式系统常见坑点汇总清单
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/41802817.html
+
+原标题：效率笔记：GitWorkflow团队协作规范模板
+简介：golang 消息队列 kafka 消费开发，Go 开发 Kafka 消费程序，消费消息执行业务，理解 Kafka 消费逻辑。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/04130246.html
+
+原标题：新手向：开源项目本地构建失败通用排查步骤
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/48814690.html
+
+原标题：开源实践：Fork上游项目，持续同步更新代码
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/93028007.html
+
+原标题：实战项目：实现分布式任务调度最小原型
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/29892925.html
+
+原标题：多实例部署 Session 共享方案
+简介：开源项目本地运行排错完整清单，汇总开源项目拉取后运行失败各类问题，给出排查思路，快速解决本地启动异常。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/51572573.html
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：golang 单元测试 table‑driven，表格驱动单元测试写法，批量输入多组测试用例，简化单元测试代码。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/85906814.html
+
+原标题：Practice：实现跨机器文件同步脚本实践
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/96602806.html
+
+原标题：设计思考：业务系统中什么时候不要用微服务
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/74239258.html
+
+原标题：模拟登录鉴权权限判断示例
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/91918039.html
+
+原标题：任务执行锁防止并发重复调度
+简介：前端下载导出文件功能实现，前端实现文件流下载导出，处理异常，适配浏览器不同下载行为。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/30114626.html
+
+原标题：golang k8s devops 流水线简单思路
+简介：golang mime 类型检测文件，mime 识别文件 mime 类型，设置 http 响应 Content‑Type。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/93434653.html
+
+原标题：react hooks 常见陷阱避坑指南
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/82342431.html
+
+原标题：golang 系统设计联合索引设计避坑要点
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/74235836.html
+
+原标题：golang k8s 监控 prometheus 部署
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/58570683.html
+
+原标题：入门实践：简易进度条CLI工具实现demo
+简介：golang 优雅关闭 grpc 服务示例，gRPC 服务优雅关闭，等待现有请求处理完成再停止服务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/63684693.html
+
+原标题：golang es 高亮搜索结果实现方案
+简介：golang tcp 四次挥手 go 程序行为，理解 tcp 四次挥手，处理连接关闭、重置、RST 包异常场景。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/83139131.html
+
+原标题：golang 系统设计接口频率限制业务落地
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/74795815.html
+
+原标题：全平台系统环境变量配置
+简介：golang tcp 四次挥手 go 程序行为，理解 tcp 四次挥手，处理连接关闭、重置、RST 包异常场景。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/98258171.html
+
+原标题：gRPC 服务端客户端入门示例
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/74795229.html
+
+原标题：Docker 多阶段构建镜像瘦身
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/51709354.html
+
+原标题：golang 系统设计 git 分支流程 gitflow 实操
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/18137368.html
+
+原标题：部署复盘：容器OOM问题完整排查流程
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/94347469.html
+
+原标题：程序日志分级输出规范实践
+简介：golang http cookie jar 会话处理，客户端 cookie jar 自动管理 cookie，处理登录态会话。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/05130401.html
+
+原标题：golang 系统设计回调重试幂等完整处理
+简介：golang tls 证书加载配置 https 服务，加载证书密钥，搭建 golang https 服务，配置 tls 版本安全策略。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/21573581.html
+
+原标题：坑点：缓存过期策略不当引发业务异常
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/62681391.html
+
+三、实战开发｜Practice
+原标题：golang 系统设计 canary 金丝雀部署实操
+简介：golang redis hyperloglog 基数统计，hyperloglog 统计 UV 基数，海量数据去重统计，极低内存开销。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/73795869.html
+
+原标题：golang docker 部署 mongodb 开发环境
+简介：golang 配置文件多环境加载，Go 多环境配置加载实现，读取配置文件环境变量，适配多套运行环境。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/52491704.html
+
+原标题：golang 系统设计配置回滚版本历史记录实现
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/28248039.html
+
+原标题：避坑：正则回溯引发CPU占满DoS风险
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/96039148.html
+
+原标题：nodejs 多进程任务分发处理
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/96269170.html
+
+原标题：golang 系统设计海量数据分页查询
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/41579507.html
+
+原标题：CDN 缓存刷新获取最新静态资源
+简介：安全组端口开放网络访问，调整服务器安全组规则，开放业务需要端口，恢复外部网络访问服务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/15258369.html
+
+原标题：方案设计：分布式分页查询架构难点处理
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/07251360.html
+
+原标题：异步任务堆积消费能力优化
+简介：全局异常处理器接口返回统一，接入全局异常捕获，拦截业务全部异常，对外输出统一格式返回值。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/84796849.html
+
+原标题：实践：API错误统一捕获与告警通知实践
+简介：golang sql 注入风险规避要点，参数化查询杜绝 sql 注入，禁止字符串拼接 SQL 语句执行。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/62780602.html
+
+原标题：Security：业务操作审计日志安全留存
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/18079836.html
+
+原标题：数据库死锁成因规避方案
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/69133466.html
+
+原标题：前端打包分包加载提速方案
+简介：golang excel 大文件读取流式解析，流式读取大 excel 文件，逐行解析数据，不加载全部内容进内存。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/25566744.html
+
+原标题：系统时间同步定时任务偏移
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/30462585.html
+
+原标题：DevOps：环境配置管理区分开发测试生产
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/07481793.html
+
+原标题：CDN 缓存刷新获取最新静态资源
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/58170604.html
+
+原标题：golang 系统设计测试环境预发环境生产环境隔离
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/36957171.html
+
+原标题：Troubleshoot：跨库关联查询，性能急剧恶化
+简介：全局异常处理器接口返回统一，接入全局异常捕获，拦截业务全部异常，对外输出统一格式返回值。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/20414926.html
+
+原标题：Practice：手写简易限流组件，计数器、令牌桶实现
+简介：golang ip2regionIP 地址解析实战，集成 ip2region 库，根据 IP 解析归属地城市，实现 IP 地域解析。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/41568059.html
+
+原标题：坑点：gitreset误删本地代码恢复方案
+简介：Docker 网络模式容器互通设置，选择合适 Docker 网络模式，实现容器之间网络互相访问通信。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/31524696.html
+
+原标题：golang redis 限流几种实现方案
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/29470772.html
+
+原标题：Hands‑on：编写shell健康检查自动重启脚本
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/30469181.html
+
+原标题：全量回归测试提升代码质量
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/41724738.html
+
+原标题：golang mysql 避免 select * 查询
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/95917060.html
+
+原标题：文件读写与异常捕获代码示例
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/04257969.html
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：golang go‑zero 框架项目快速搭建，go‑zero 脚手架生成微服务项目，api rpc 服务快速开发。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/95806950.html
+
+原标题：golang 系统设计定时任务分布式锁
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/92135158.html
+
+原标题：快速上手阅读开源项目源码的入门思路
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/18947585.html
+
+原标题：OpenSource：开源项目风险评估依赖安全检查
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/06169282.html
+
+原标题：golang 系统设计 vscode go 插件调试配置实操
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/07169582.html
+
+原标题：golang redis 主从复制哨兵原理
+简介：golang 协程数量监控统计方案，统计运行中 goroutine 数量，监控协程泄露，协程数量异常及时告警。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/60393792.html
+
+原标题：踩坑：数据库连接未关闭，连接池泄露
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/75513915.html
+
+原标题：架构复盘：供应链安全架构依赖包风险治理
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/71893626.html
+
+原标题：分布式 ID 全局唯一生成方案
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/36462582.html
+
+原标题：开源实践：开源Issue沟通技巧如何有效提Bug
+简介：golang go sum 校验失败处理方案，go sum 校验不匹配，排查网络代理，清理缓存解决校验报错。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/85069560.html
+
+原标题：DevOps：容器网络模式选型与坑点总结
+简介：golang context.WithCancel 手动取消上下文，WithCancel 生成可取消 ctx，手动调用 cancel 触发取消。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/43715726.html
+
+原标题：对象存储上传下载权限实操
+简介：服务熔断防止故障级联传播，实现服务熔断逻辑，下游故障时快速失败，阻止故障向上游链式扩散。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/74848038.html
+
+原标题：效率笔记：终端开发工具提升日常调试效率
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/95602638.html
+
+原标题：零基础理解缓存基础原理与简单使用
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/18280693.html
+
+原标题：快速入门消息队列基础概念模型
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/18066140.html
+
+四、架构设计｜Architecture
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：golang 协程泄露问题排查方法，识别 Go 协程泄露现象，分析泄露场景，给出排查定位协程泄露手段。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/41394036.html
+
+原标题：部署复盘：配置不要硬编码进镜像最佳实践
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/81469604.html
+
+原标题：golang 系统设计网关鉴权鉴权转发流程讲解
+简介：golang gif 图片帧处理操作，解析 gif 图片帧，压缩、拆分 gif 动图，处理动图业务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/37271392.html
+
+原标题：开源项目构建失败排查步骤
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/63746038.html
+
+原标题：Git 子模块更新代码不全修复
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/04512312.html
+
+原标题：快速上手简单性能监控指标查看
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/59461473.html
+
+原标题：提交第一个开源 PR 完整流程
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/86704068.html
+
+原标题：方案设计：分布式分页查询架构难点处理
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/72814039.html
+
+原标题：golang 系统设计 git 分支流程 gitflow 实操
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/64795684.html
+
+原标题：Practice：实现批量任务失败断点续跑实践
+简介：文件监控服务自动重启开发，监控项目文件变更，代码修改自动重启服务，提升本地开发调试效率。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/39046250.html
+
+原标题：性能复盘：锁粒度太大，拆分细粒度锁优化
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/83481726.html
+
+原标题：优化实践：LRU本地缓存优化热点访问性能
+简介：前端打包产物体积压缩优化，多手段压缩前端打包产物，移除无用代码，压缩资源，提升页面加载速度。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/50169504.html
+
+原标题：golang 系统设计架构图绘图工具选型对比
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/38057571.html
+
+原标题：快速入门环境区分：开发、测试、生产环境
+简介：对象存储上传下载权限实操，演示对象存储文件上传、下载、访问权限设置，适配业务文件存储场景。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/94903859.html
+
+原标题：特殊输入字符过滤解析防护
+简介：golang 内存碎片问题识别与规避，大量小对象频繁分配产生内存碎片，通过对象池减少碎片。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/05614803.html
+
+原标题：golang 系统设计日志本地打印线上关闭调试信息
+简介：文件监控服务自动重启开发，监控项目文件变更，代码修改自动重启服务，提升本地开发调试效率。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/59461359.html
+
+原标题：golang 系统设计短链接服务实现思路
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/27834138.html
+
+原标题：golang 系统设计 rest 错误返回格式统一规范
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://www.blog.qwnvjn.cn/ojmmj/15168369.html
+
+?
