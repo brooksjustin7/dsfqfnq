@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计灰度发布实现思路
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：http://book.afumdd.asia/blog/7389267.sHtMl
+
+原标题：坑点：版本号语义化理解错误依赖版本错乱
+简介：css 动画性能优化 GPU 加速，优化 CSS 动画，使用 GPU 加速属性，避免动画过程页面卡顿掉帧。
+ | 原文链接：http://book.afumdd.asia/blog/8267005.sHtMl
+
+原标题：golang 系统设计 protobuf 可选字段使用技巧
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：http://book.afumdd.asia/blog/3713682.sHtMl
+
+原标题：排错：本地[localhost](https://localhost)可以，127001访问失败
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：http://book.afumdd.asia/blog/3903682.sHtMl
+
+原标题：新手教程：配置SSH‑Key免密访问GitHub
+简介：golang go‑zero 缓存自动击穿防护，go‑zero 缓存组件自带缓存击穿防护，减少缓存层故障。
+ | 原文链接：http://book.afumdd.asia/blog/7167038.sHtMl
+
+原标题：时间精度统一业务判断修复
+简介：golang fasthttp 高性能 http 库使用，fasthttp 高性能 http 实现，适合超高 QPS 场景，对比 net/http 差异。
+ | 原文链接：http://book.afumdd.asia/blog/2824705.sHtMl
+
+原标题：golang 系统设计 gob msgpack 序列化对比
+简介：golang context.WithTimeout 超时上下文，WithTimeout 设置超时时间，超时自动 cancel 释放协程。
+ | 原文链接：http://book.afumdd.asia/blog/8269703.sHtMl
+
+原标题：golang k8s configmap secret 配置
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://book.afumdd.asia/blog/5246038.sHtMl
+
+原标题：前端防抖节流高频事件处理
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://book.afumdd.asia/blog/2906604.sHtMl
+
+原标题：golang 系统设计 debug 远程调试 go 程序实操
+简介：golang time 时间格式化避坑，Go 时间格式化参考时间牢记，处理时间解析格式化，解决时间输出错乱。
+ | 原文链接：http://book.afumdd.asia/blog/5947715.sHtMl
+
+原标题：nodejs 集群模式多核利用实现
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：http://book.afumdd.asia/blog/8370390.sHtMl
+
+原标题：golang 系统设计告警风暴抑制合并降噪方案
+简介：golang 灰度发布流量权重路由实现，根据权重切分流量，部分流量访问新版本服务，实现灰度发布。
+ | 原文链接：http://book.afumdd.asia/blog/2013694.sHtMl
+
+原标题：golang 系统设计唯一索引业务使用场景
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：http://book.afumdd.asia/blog/4834473.sHtMl
+
+原标题：nodejs 信号处理优雅关闭服务
+简介：golang contract 契约测试微服务，微服务契约测试，保证接口变更不破坏调用方，提前发现兼容性问题。
+ | 原文链接：http://book.afumdd.asia/blog/7026794.sHtMl
+
+原标题：golang 系统设计链路数据存储选型对比讲解
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://book.afumdd.asia/blog/1378267.sHtMl
+
+原标题：接口压测定位系统性能瓶颈
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：http://book.afumdd.asia/blog/2603371.sHtMl
+
+原标题：架构复盘：限流系统架构防止恶意流量冲击
+简介：golang go 项目安全检查漏洞扫描，扫描 go 项目依赖漏洞，代码安全审计，规避安全风险。
+ | 原文链接：http://book.afumdd.asia/blog/5936013.sHtMl
+
+原标题：golang 系统设计本地缓存与分布式缓存
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://book.afumdd.asia/blog/6135816.sHtMl
+
+原标题：安全实践：接口错误信息不要暴露内部细节
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://book.afumdd.asia/blog/2605700.sHtMl
+
+原标题：快速入门简单签名校验实现思路
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：http://book.afumdd.asia/blog/3050352.sHtMl
+
+原标题：Security：开源项目安全审计简易检查清单
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：http://book.afumdd.asia/blog/3047153.sHtMl
+
+原标题：无用对象回收抑制内存上涨
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://book.afumdd.asia/blog/1835949.sHtMl
+
+原标题：golang 系统设计监控缺失指标补全完整流程
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：http://book.afumdd.asia/blog/8513828.sHtMl
+
+原标题：部署实践：多实例服务部署无状态改造
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://book.afumdd.asia/blog/1936140.sHtMl
+
+原标题：本地数据库开发环境搭建指南
+简介：golang docker 镜像构建最佳实践，Go 项目 Docker 镜像构建最佳实践，减小镜像体积，安全构建。
+ | 原文链接：http://book.afumdd.asia/blog/8502702.sHtMl
+
+原标题：百万数据 Excel 导出内存优化
+简介：Spring 事务传播机制配置生效，理解事务传播行为，正确配置，修复事务不生效、事务失效的业务 bug。
+ | 原文链接：http://book.afumdd.asia/blog/1758370.sHtMl
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：http://book.afumdd.asia/blog/2647252.sHtMl
+
+原标题：安全实践：接口错误信息不要暴露内部细节
+简介：golang trace 工具采集 go 程序执行轨迹，go trace 采集程序完整调度轨迹，分析协程调度阻塞问题。
+ | 原文链接：http://book.afumdd.asia/blog/9173514.sHtMl
+
+原标题：nodejs 跨域中间件配置细节
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：http://book.afumdd.asia/blog/0718060.sHtMl
+
+原标题：golang 系统设计采样策略降低链路存储开销
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://book.afumdd.asia/blog/6474635.sHtMl
+
+原标题：实战项目：百万日志文件解析处理脚本实践
+简介：本地简易配置中心动态管理，搭建轻量本地配置中心，业务动态读取配置，修改配置不重启服务。
+ | 原文链接：http://book.afumdd.asia/blog/3047284.sHtMl
+
+原标题：部署实践：Nginx高可用配置方案实践
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：http://book.afumdd.asia/blog/4850583.sHtMl
+
+原标题：安全笔记：第三方SDK安全风险评估要点
+简介：golang 错误栈捕获打印方案，捕获错误完整调用堆栈，线上日志输出堆栈，快速定位错误发生代码位置。
+ | 原文链接：http://book.afumdd.asia/blog/7480281.sHtMl
+
+原标题：Hands‑on：shell脚本批量自动化运维小工具
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://book.afumdd.asia/blog/2747269.sHtMl
+
+原标题：golang es 更新文档注意版本冲突
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：http://book.afumdd.asia/blog/2940280.sHtMl
+
+原标题：看懂报错日志快速定位问题
+简介：golang go 终端 pty 伪终端操作，pty 启动子进程，模拟终端交互，实现交互式命令调用。
+ | 原文链接：http://book.afumdd.asia/blog/5263547.sHtMl
+
+原标题：优化实践：分页查询性能优化解决offset问题
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://book.afumdd.asia/blog/8595857.sHtMl
+
+原标题：安全复盘：日志打印敏感信息泄露治理
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：http://book.afumdd.asia/blog/1774637.sHtMl
+
+原标题：实战：数据库explain执行计划分析实操演练
+简介：版本升级服务启动失败处理，版本更新之后服务无法启动，对比新旧版本配置、依赖差异，完成故障修复。
+ | 原文链接：http://book.afumdd.asia/blog/8726147.sHtMl
+
+原标题：golang gin 框架接口开发实战
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：http://book.afumdd.asia/blog/8540281.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：架构笔记：WebSocket大规模连接服务架构
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：http://book.afumdd.asia/blog/0926039.sHtMl
+
+原标题：布隆过滤器数据高效去重实现
+简介：golang 分布式唯一 id 多种方案对比，雪花、redis、uuid 对比各方案优缺点，指导业务选型使用。
+ | 原文链接：http://book.afumdd.asia/blog/7480595.sHtMl
+
+原标题：部署复盘：容器资源限制CPU内存配置实践
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://book.afumdd.asia/blog/1828041.sHtMl
+
+原标题：部署复盘：服务启动顺序依赖处理方案
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://book.afumdd.asia/blog/5202807.sHtMl
+
+原标题：性能复盘：数据库回滚日志过大性能影响优化
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://book.afumdd.asia/blog/8507061.sHtMl
+
+原标题：golang 系统设计线上问题复现思路简单讲解
+简介：缓存基础原理与简单代码实现，讲解缓存设计思路，编写简易缓存逻辑，减少重复计算与重复请求，提升程序响应速度。
+ | 原文链接：http://book.afumdd.asia/blog/3151391.sHtMl
+
+原标题：nestjs 全局返回格式统一处理
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：http://book.afumdd.asia/blog/6080695.sHtMl
+
+原标题：nodejs 单元测试 jest 实操教程
+简介：程序预加载加快服务启动速度，把高频使用资源提前预加载，减少请求阶段初始化，加快服务启动。
+ | 原文链接：http://book.afumdd.asia/blog/3162703.sHtMl
+
+原标题：golang 系统设计短链接服务实现思路
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://book.afumdd.asia/blog/4150392.sHtMl
+
+原标题：golang k8s service 服务暴露几种类型
+简介：golang hmac 签名生成校验示例，hmac 生成消息签名，做接口请求签名，校验数据不被篡改。
+ | 原文链接：http://book.afumdd.asia/blog/6374847.sHtMl
+
+原标题：安全组端口开放网络访问
+简介：golang 静态编译缩小镜像体积，Go 程序静态编译，不依赖系统库，产出单二进制文件，缩小镜像。
+ | 原文链接：http://book.afumdd.asia/blog/5303625.sHtMl
+
+原标题：架构笔记：分布式系统常见一致性模型梳理
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://book.afumdd.asia/blog/0710280.sHtMl
+
+原标题：短信服务封装失败自动重试
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：http://book.afumdd.asia/blog/5262573.sHtMl
+
+原标题：Issue：开源项目升级大版本后API不兼容踩坑
+简介：golang go 自定义错误类型实现，自定义 error 结构体，携带错误码、堆栈信息，统一业务错误。
+ | 原文链接：http://book.afumdd.asia/blog/3049079.sHtMl
+
+原标题：golang 系统设计 rest 资源命名规范汇总
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：http://book.afumdd.asia/blog/6279495.sHtMl
+
+原标题：开发复盘：导出大文件避免内存溢出实现方案
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://book.afumdd.asia/blog/7483514.sHtMl
+
+原标题：入门实践：简单的请求封装与异常捕获
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://book.afumdd.asia/blog/7461514.sHtMl
+
+原标题：HTTPS 证书过期更新操作
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：http://book.afumdd.asia/blog/3161414.sHtMl
+
+原标题：踩坑记录：端口被占用导致服务启动失败
+简介：对象存储上传下载权限实操，演示对象存储文件上传、下载、访问权限设置，适配业务文件存储场景。
+ | 原文链接：http://book.afumdd.asia/blog/7483927.sHtMl
+
+原标题：跨库查询性能优化处理
+简介：golang 雪花算法 workId 自动获取，自动获取机器 workId，不用手动配置，简化分布式 id 部署。
+ | 原文链接：http://book.afumdd.asia/blog/1046250.sHtMl
+
+原标题：golang 系统设计第三方接口 mock 单元测试
+简介：golang redis bitmap 位图业务实战，bitmap 做签到统计、用户状态标记，节省大量内存空间。
+ | 原文链接：http://book.afumdd.asia/blog/6480618.sHtMl
+
+原标题：golang 系统设计压测指标 qps rt 错误率讲解
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：http://book.afumdd.asia/blog/6383696.sHtMl
+
+原标题：golang 系统设计故障预案编写模板参考示例
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：http://book.afumdd.asia/blog/4180604.sHtMl
+
+原标题：开发复盘：大事务拆分优化业务性能实践
+简介：golang 单元测试 table‑driven，表格驱动单元测试写法，批量输入多组测试用例，简化单元测试代码。
+ | 原文链接：http://book.afumdd.asia/blog/1838073.sHtMl
+
+原标题：方案设计：短链接系统完整架构方案拆解
+简介：golang 日志输出 stdout 标准输出规范，容器环境日志输出到 stdout，由容器平台统一采集日志文件。
+ | 原文链接：http://book.afumdd.asia/blog/6302705.sHtMl
+
+原标题：设计思考：分布式ID系统架构选型对比
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：http://book.afumdd.asia/blog/9727950.sHtMl
+
+原标题：Practice：批量异步任务处理系统设计实现
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://book.afumdd.asia/blog/8313929.sHtMl
+
+原标题：golang makefile 自动化构建脚本
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：http://book.afumdd.asia/blog/3756960.sHtMl
+
+原标题：golang ci 流水线代码质量扫描集成
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://book.afumdd.asia/blog/5251514.sHtMl
+
+原标题：golang 时间时区处理避坑指南
+简介：golang cron 任务漂移问题处理，cron 任务执行超时导致任务漂移，通过分布式锁防止任务重叠执行。
+ | 原文链接：http://book.afumdd.asia/blog/7481515.sHtMl
+
+原标题：golang 系统设计 jmeter 简单压测脚本编写
+简介：golang strings 常用函数业务实战，字符串分割替换包含判断前缀后缀，掌握 strings 包高频函数。
+ | 原文链接：http://book.afumdd.asia/blog/8594737.sHtMl
+
+原标题：golang 系统设计防爬虫简单策略
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：http://book.afumdd.asia/blog/7180816.sHtMl
+
+原标题：性能笔记：服务CPU高负载定位分析完整步骤
+简介：golang prometheus http 接口暴露指标，暴露 prometheus metrics 接口，输出业务运行指标，接入监控告警系统。
+ | 原文链接：http://book.afumdd.asia/blog/6383627.sHtMl
+
+原标题：WSL 文件权限访问异常修复
+简介：HTTP 状态码请求头完整梳理，汇总常用 HTTP 状态码与请求头含义，帮助快速看懂网络请求，排查接口通信问题。
+ | 原文链接：http://book.afumdd.asia/blog/3049288.sHtMl
+
+原标题：新手向：开源项目本地构建失败通用排查步骤
+简介：网关超时时间调优后端等待，调大网关向后端转发请求超时时间，给后端业务充足处理时间。
+ | 原文链接：http://book.afumdd.asia/blog/5946816.sHtMl
+
+原标题：零基础理解依赖管理与包管理器
+简介：golang 僵尸进程处理 go 程序，正确等待子进程退出，避免产生僵尸进程，占用系统进程表。
+ | 原文链接：http://book.afumdd.asia/blog/5934927.sHtMl
+
+原标题：golang etcd watch 监听配置变更
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://book.afumdd.asia/blog/3026704.sHtMl
+
+原标题：golang 系统设计日志与 traceId 关联打印实现
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://book.afumdd.asia/blog/1825140.sHtMl
+
+原标题：从零搭建简单定时任务demo
+简介：HTTP 状态码请求头完整梳理，汇总常用 HTTP 状态码与请求头含义，帮助快速看懂网络请求，排查接口通信问题。
+ | 原文链接：http://book.afumdd.asia/blog/9313816.sHtMl
+
+原标题：Troubleshoot：MySQL字符集utf8非utf8mb4emoji报错
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：http://book.afumdd.asia/blog/4158188.sHtMl
+
+三、实战开发｜Practice
+原标题：Practice：实现异步回调处理通用组件封装
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：http://book.afumdd.asia/blog/6372627.sHtMl
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：nodejs 读取大文件 csv 处理方案，Node 流式读取超大 CSV 文件，逐行解析，避免一次性加载全部文件。
+ | 原文链接：http://book.afumdd.asia/blog/8372515.sHtMl
+
+原标题：golang etcd watch 监听配置变更
+简介：golang cgo 内存管理 C 与 Go 内存，区分 Go 内存 C 堆内存，防止 cgo 内存泄漏，正确释放 C 内存。
+ | 原文链接：http://book.afumdd.asia/blog/3059171.sHtMl
+
+原标题：golang 系统设计 websocket 协议原理梳理
+简介：前端打包产物体积压缩优化，多手段压缩前端打包产物，移除无用代码，压缩资源，提升页面加载速度。
+ | 原文链接：http://book.afumdd.asia/blog/8202815.sHtMl
+
+原标题：多版本开发环境共存配置
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：http://book.afumdd.asia/blog/6080604.sHtMl
+
+原标题：golang 系统设计滑动窗口限流代码示例
+简介：golang panic 崩溃日志完整收集，捕获所有 panic，打印堆栈，记录日志，方便定位崩溃根源。
+ | 原文链接：http://book.afumdd.asia/blog/3049282.sHtMl
+
+原标题：Nginx 请求头大小上限调整
+简介：golang go http 静态文件禁止目录遍历，http.FileServer 防止../ 路径穿越，了解底层安全实现。
+ | 原文链接：http://book.afumdd.asia/blog/7483705.sHtMl
+
+原标题：TCP 心跳检测清理僵死连接
+简介：golang 配置文件多环境加载，Go 多环境配置加载实现，读取配置文件环境变量，适配多套运行环境。
+ | 原文链接：http://book.afumdd.asia/blog/1827030.sHtMl
+
+原标题：零基础理解版本控制核心概念与工作流
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：http://book.afumdd.asia/blog/2967361.sHtMl
+
+原标题：Practice：数据库分表简单实现方案与代码示例
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：http://book.afumdd.asia/blog/4161415.sHtMl
+
+原标题：性能笔记：磁盘IO过高业务优化手段
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://book.afumdd.asia/blog/6382505.sHtMl
+
+原标题：程序信号中断退出处理逻辑
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：http://book.afumdd.asia/blog/6338184.sHtMl
+
+原标题：排错：DockerCompose依赖顺序启动顺序坑
+简介：golang go http 文件服务器自定义，http.FileServer 自定义 FileSystem，拦截访问，增加鉴权逻辑。
+ | 原文链接：http://book.afumdd.asia/blog/4193916.sHtMl
+
+原标题：缓存过期策略优化防业务故障
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：http://book.afumdd.asia/blog/5272515.sHtMl
+
+原标题：Practice：实现熔断降级组件简单原型代码
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：http://book.afumdd.asia/blog/4717919.sHtMl
+
+原标题：实践：前后端分离项目登录状态保持完整方案
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：http://book.afumdd.asia/blog/5879582.sHtMl
+
+原标题：坑点：gitrebase操作失误，代码提交丢失
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：http://book.afumdd.asia/blog/2151475.sHtMl
+
+原标题：Troubleshooting：WSL文件权限问题大量踩坑
+简介：golang go 版本管理 go install 安装工具，go install 安装指定版本 go 工具，管理本地 go 工具版本。
+ | 原文链接：http://book.afumdd.asia/blog/1939172.sHtMl
+
+原标题：架构复盘：网关层、应用层、数据库层层限流架构
+简介：内存广播本地进程消息通知，实现进程内内存消息广播，进程内部模块之间事件通知解耦。
+ | 原文链接：http://book.afumdd.asia/blog/5272627.sHtMl
+
+原标题：安全实践：SQL注入产生场景与完整防御手段
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：http://book.afumdd.asia/blog/6370699.sHtMl
+
+原标题：新手教程：gitrebase基础使用与风险提示
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：http://book.afumdd.asia/blog/1846253.sHtMl
+
+原标题：DevOps：日志标准输出容器日志收集方案
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：http://book.afumdd.asia/blog/5272637.sHtMl
+
+原标题：HelloShell：入门常用shell脚本编写
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://book.afumdd.asia/blog/0935253.sHtMl
+
+原标题：golang 系统设计网关路由规则动态配置实现
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：http://book.afumdd.asia/blog/5261416.sHtMl
+
+原标题：从零学习基础的接口请求与参数处理
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://book.afumdd.asia/blog/4080605.sHtMl
+
+原标题：HelloGitHubPages：部署你的第一个静态博客
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://book.afumdd.asia/blog/6380693.sHtMl
+
+原标题：HTTPS 证书过期更新操作
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：http://book.afumdd.asia/blog/2938152.sHtMl
+
+原标题：设计思考：分布式ID系统架构选型对比
+简介：golang 配置文件多环境加载，Go 多环境配置加载实现，读取配置文件环境变量，适配多套运行环境。
+ | 原文链接：http://book.afumdd.asia/blog/0718249.sHtMl
+
+原标题：WebSocket 双向通信 demo 开发
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：http://book.afumdd.asia/blog/2935259.sHtMl
+
+原标题：多实例部署 Session 共享方案
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：http://book.afumdd.asia/blog/0723839.sHtMl
+
+原标题：Debug：表单自动转义特殊字符业务逻辑出错
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：http://book.afumdd.asia/blog/1508113.sHtMl
+
+原标题：Practice：实现业务id生成不连续有序ID方案
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://book.afumdd.asia/blog/7672714.sHtMl
+
+原标题：开源实践：参与开源项目从Issue到PR完整流程
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://book.afumdd.asia/blog/2936172.sHtMl
+
+原标题：service‑worker 离线缓存实践
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：http://book.afumdd.asia/blog/8535040.sHtMl
+
+原标题：golang 系统设计消息消费 offset 管理策略
+简介：golang http 重定向策略自定义，CheckRedirect 自定义重定向逻辑，限制重定向次数，防止死循环。
+ | 原文链接：http://book.afumdd.asia/blog/7594515.sHtMl
+
+原标题：golang 系统设计 sql 注入 xss 防护实践
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：http://book.afumdd.asia/blog/0846362.sHtMl
+
+原标题：新手指南：读懂项目构建脚本作用
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：http://book.afumdd.asia/blog/0727030.sHtMl
+
+原标题：golang mysql 读写分离简单实现
+简介：缓存基础原理与简单代码实现，讲解缓存设计思路，编写简易缓存逻辑，减少重复计算与重复请求，提升程序响应速度。
+ | 原文链接：http://book.afumdd.asia/blog/5979471.sHtMl
+
+原标题：golang 系统设计缓存预热缓存降级实现
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://book.afumdd.asia/blog/9835920.sHtMl
+
+原标题：Practice：从零实现轻量后端接口服务完整实践
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://book.afumdd.asia/blog/3048479.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang docker 网络模式桥接 host
+简介：golang gin 静态资源访问配置，Gin 配置静态资源目录，直接对外提供静态文件访问服务。
+ | 原文链接：http://book.afumdd.asia/blog/1040303.sHtMl
+
+原标题：service‑worker 离线缓存实践
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：http://book.afumdd.asia/blog/0717959.sHtMl
+
+原标题：golang 系统设计 mq 消息重复消费处理
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://book.afumdd.asia/blog/3048473.sHtMl
+
+原标题：开发环境变量配置全平台教程
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://book.afumdd.asia/blog/2161470.sHtMl
+
+原标题：golang 系统设计网络超时故障排查思路
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://book.afumdd.asia/blog/8694840.sHtMl
+
+原标题：排错：CI缓存策略错误，每次全量重新构建
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：http://book.afumdd.asia/blog/9717069.sHtMl
+
+原标题：golang nginx 反向代理 go 服务配置
+简介：Git 误删提交代码恢复找回，使用 Git reflog 工具找回被误删除提交记录，恢复误删除代码。
+ | 原文链接：http://book.afumdd.asia/blog/6480695.sHtMl
+
+原标题：架构复盘：服务优雅停机架构设计资源释放
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：http://book.afumdd.asia/blog/2161403.sHtMl
+
+原标题：项目实践：多租户数据隔离三种方案实操对比
+简介：golang 云存储 s3 协议对象存储，go s3 客户端，兼容 minio 阿里云 oss，实现文件上传下载签名访问。
+ | 原文链接：http://book.afumdd.asia/blog/0616939.sHtMl
+
+原标题：线上异常：线程池队列拒绝策略配置错误丢任务
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：http://book.afumdd.asia/blog/3049289.sHtMl
+
+原标题：API 接口调试与异常处理实战
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：http://book.afumdd.asia/blog/4070585.sHtMl
+
+原标题：全局时间标准统一逻辑错乱修复
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://book.afumdd.asia/blog/8594136.sHtMl
+
+原标题：全局本地依赖隔离冲突规避
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：http://book.afumdd.asia/blog/8594625.sHtMl
+
+原标题：golang mysql json 字段查询使用
+简介：CORS 跨域问题多种解决方案，对比 CORS、代理等不同跨域方案优缺点，根据业务场景选择合适的跨域处理方式。
+ | 原文链接：http://book.afumdd.asia/blog/8716069.sHtMl
+
+原标题：golang 单元测试 table‑driven
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://book.afumdd.asia/blog/5279507.sHtMl
+
+原标题：golang docker compose 完整语法
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：http://book.afumdd.asia/blog/3168060.sHtMl
+
+原标题：部署复盘：服务启动顺序依赖处理方案
+简介：golang 日志按日期切割实现方案，实现日志文件按天切割，自动归档旧日志，防止单个日志文件过大。
+ | 原文链接：http://book.afumdd.asia/blog/0049251.sHtMl
+
+原标题：部署复盘：容器资源限制CPU内存配置实践
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：http://book.afumdd.asia/blog/5968253.sHtMl
+
+?
